@@ -1,0 +1,29 @@
+{
+  "name": "mozio_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kaiserbrito/mozio_codetest.git",
+  "author": "Victor Guerra <victorbcguerra@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },  
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "html-loader": "^0.5.4",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "redux": "^3.7.2"
+  }
+}
