@@ -7,7 +7,7 @@ import { Router, Route, hashHistory  } from 'react-router'
 
 const store = configureStore();
 
-render((
+ReactDOM.render((
   <Provider store={store}>
     <Router history={hashHistory}>
       <Route path='/' component={App}/>

@@ -39,7 +39,7 @@ class AppComponent extends React.Component {
         lat: lat,
         long: lng,
         dist: distan,
-        currentProc: 'Done'
+        currentProc: 'OK'
       })
     })
   }
@@ -62,7 +62,7 @@ class AppComponent extends React.Component {
         lat2: lat,
         long2: lng,
         dist: distan,
-        currentProc: 'Done'
+        currentProc: 'OK'
       })
     })
   }
@@ -83,7 +83,7 @@ class AppComponent extends React.Component {
             autocompleteItem={AutocompleteItem}
           />
         </div>
-        <h3>Distance difference between {this.state.currentAdd} and {this.state.currentAdd2} is {this.state.dist} Km </h3>
+        <h3>Distance between {this.state.currentAdd} and {this.state.currentAdd2} is {this.state.dist} Km </h3>
       </div>
     );
   }
